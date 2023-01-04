@@ -12,7 +12,7 @@ class User(
     var profilePictureUri: String? = ""
 
 
-        ) : Parcelable {
+) : Parcelable {
     constructor(parcel: Parcel) : this(
         parcel.readString(),
         parcel.readString(),
